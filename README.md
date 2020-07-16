@@ -1,6 +1,6 @@
 # Kaguya-Studio-Code
 A level-100-of-cuteness-and-creativity IDE with real-time chat, intellisense, live team-coding, and -this is important- live2D Kaguya-sama to teach amateur programmers how to code from scratch.
-
+IDE runs cross-platform as a native software and web application.
 ![GitHub issues](https://img.shields.io/github/issues/b1506704/Kaguya-Studio-Code) 
 ![GitHub language count](https://img.shields.io/github/languages/count/b1506704/Kaguya-Studio-Code)
 
