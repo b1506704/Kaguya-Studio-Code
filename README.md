@@ -20,11 +20,11 @@ npm start
   - Live team coding ヾ(・ω・`)ノヾ(´・ω・)ノ゛
 ## Technologies
 - Electron.js
-- Javascript (No Typescript please).
+- ReactJS
 - HTML5 + Bootstrap.
 - Live2D API for HTMLs.
-- Backend languages: NodeJS.
-- Database: MongoDB.
+- Backend languages: Redux
+- Database: (MongoDB, MySQL, GraphQL)
 - Tools for making Live2D model, prototypes for UI,UX.
 ## Usage
 ```bash
