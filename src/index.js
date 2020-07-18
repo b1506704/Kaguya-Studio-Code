@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './components/App/App'
+import './components/Login/Login'
+import './components/Live2DModels/live2dmodel.css';
 import * as serviceWorker from './serviceWorker';
+//import Login from './components/Login/Login';
+import App from './components/App/App';
+import Live2DModel from './components/Live2DModels/Live2DModel';
 
 ReactDOM.render(
   <React.StrictMode>
+    <Live2DModel />
     <App />
+    
+
   </React.StrictMode>,
   document.getElementById('root')
 );
