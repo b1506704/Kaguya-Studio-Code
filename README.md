@@ -1,5 +1,5 @@
 # Kaguya-Studio-Code
-A level-100-of-cuteness-and-creativity IDE with real-time chat, intellisense, live team-coding, and -this is important- live2D Kaguya-sama to teach amateur programmers how to code from scratch.
+A level-100-of-cuteness-and-creativity IDE for building web applications with real-time chat, intellisense, live team-coding, built-in music player, custom themes,and -this is important- live2D mascot assistant Kaguya-sama to teach amateur programmers how to code from scratch.
 IDE runs cross-platform as a native software and web application.
 
 ![GitHub issues](https://img.shields.io/github/issues/b1506704/Kaguya-Studio-Code) 
@@ -17,14 +17,14 @@ npm start
   - Cute and creative UI. (つ✧ω✧)つ
   - Live2D mascot assistant and God of Hidden Coding Technique, 輝夜－様 (Kaguya-sama).	(❤ω❤)
   - Real-time chat with fellow Kaguya-worshipping cults (⁄ ⁄•⁄ω⁄•⁄ ⁄) 	
-  - Live team coding ヾ(・ω・`)ノヾ(´・ω・)ノ゛
+  - Live team coding, built-in music player ヾ(・ω・`)ノヾ(´・ω・)ノ゛
 ## Technologies
 - Electron.js
 - ReactJS
 - HTML5 + Bootstrap.
 - Live2D API for HTMLs.
 - Backend languages: Redux
-- Database: (MongoDB, MySQL, GraphQL)
+- Database: MongoDB
 - Tools for making Live2D model, prototypes for UI,UX.
 ## Usage
 ```bash
