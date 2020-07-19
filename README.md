@@ -1,5 +1,5 @@
 # Kaguya-Studio-Code
-A level-100-of-cuteness-and-creativity IDE for building web applications with real-time chat, intellisense, live team-coding, built-in music player, custom themes,and -this is important- live2D mascot assistant Kaguya-sama to teach amateur programmers how to code from scratch.
+A level-100-of-cuteness-and-creativity IDE for building web applications with click-and-drag HTML elements, real-time chat, intellisense, live team-coding, built-in music player, custom themes,and -this is important- live2D mascot assistant Kaguya-sama to teach amateur programmers how to code from scratch.
 IDE runs cross-platform as a native software and web application.
 
 ![GitHub issues](https://img.shields.io/github/issues/b1506704/Kaguya-Studio-Code) 
@@ -12,7 +12,7 @@ npm install
 npm start
 ```
 ## Feature
-  - Standard feature of a code editor. ｡ﾟ･ (>﹏<) ･ﾟ｡
+  - Standard feature of a code editor + click and drag HTML elements ｡ﾟ･ (>﹏<) ･ﾟ｡
   - Intellisense. ლ(ಠ_ಠ ლ) 
   - Cute and creative UI. (つ✧ω✧)つ
   - Live2D mascot assistant and God of Hidden Coding Technique, 輝夜－様 (Kaguya-sama).	(❤ω❤)
