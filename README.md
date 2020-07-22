@@ -20,8 +20,8 @@ npm start
   - Live team coding, built-in music player ヾ(・ω・`)ノヾ(´・ω・)ノ゛
 ## Technologies
 - Electron.js
-- ReactJS
-- HTML5 + Bootstrap.
+- React + Redux
+- Material UI for React
 - Live2D API for HTMLs.
 - Backend languages: Redux
 - Database: MongoDB
