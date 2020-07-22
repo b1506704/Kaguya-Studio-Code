@@ -22,7 +22,7 @@ npm start
 - Desktop Application: Electron.js.
 - Framework: React + Redux.
 - React UI Components: Material UI for React.
-- React UI Components' Animation: Framer Motion.
+- React UI Components' Animation: Framer Motion/ Anime.js
 - Live2D API for HTMLs: Live2D Widget API.
 - Database: MongoDB.
 - Live2D Model: Live2D Cubism.
