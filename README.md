@@ -19,13 +19,15 @@ npm start
   - Real-time chat with fellow Kaguya-worshipping cults (⁄ ⁄•⁄ω⁄•⁄ ⁄) 	
   - Live team coding, built-in music player ヾ(・ω・`)ノヾ(´・ω・)ノ゛
 ## Technologies
-- Electron.js
-- React + Redux
-- Material UI for React
-- Live2D API for HTMLs.
-- Backend languages: Redux
-- Database: MongoDB
-- Tools for making Live2D model, prototypes for UI,UX.
+- Desktop Application: Electron.js.
+- Framework: React + Redux.
+- React UI Components: Material UI for React.
+- React UI Components' Animation: Framer Motion.
+- Live2D API for HTMLs: Live2D Widget API.
+- Database: MongoDB.
+- Live2D Model: Live2D Cubism.
+- Prototypes for UI,UX: Framer.
+
 ## Usage
 ```bash
 
