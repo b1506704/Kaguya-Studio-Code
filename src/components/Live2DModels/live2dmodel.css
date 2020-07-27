@@ -1,20 +1,39 @@
 #live2d-widget {
-    -webkit-app-region: no-drag;
-    position: fixed;
+    padding: 0;
+    margin: 0;
+    position: fixed;    
     right: 0px;
     bottom: -20px;
-    width: 200px;
-    height: 400px;
-    z-index: 99999;
+    width: 800px;
+    height: 500px;
+    /* z-index: for z dimension order of display */
+    z-index: 99999; 
     opacity: 1;
     pointer-events: none;
 }
-#live2d-widget-dialog-container {
-    transform: scale(0.8);
+.live2d-widget-dialog-container {
+    transform: scale(0);
+    
 }
-#live2d-widget-dialog {
-    opacity: 1;
-}
-#live2dcanvas {
+
+.live2d-widget-dialog { 
+    text-align: center;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+	align-items: center;
+    font-weight: bold;
+    color: rgb(218, 22, 8);
+    padding: 25px;
+    height: auto;
+    width: auto;
+    background-color: wheat; 
+    border-radius: 50px;
+    border-color: transparent;
+    box-shadow: 0px 0px 20px 0px pink;
+    
+} 
+#live2dcanvas {    
+    -webkit-app-region: no-drag;
     position: absolute; left: 0px; top: 0px; width: 200px; height: 400px;
 }

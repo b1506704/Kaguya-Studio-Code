@@ -6,6 +6,8 @@
 }
 
 html,body {
+	-webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
     border: none;
     -webkit-app-region: drag;
     background: transparent;
@@ -28,7 +30,7 @@ h2 {
 	text-align: center;
 }
 
-p {
+p,#signupLog,#signinLog {
 	font-size: 14px;
 	font-weight: 100;
 	line-height: 20px;
@@ -49,7 +51,7 @@ a {
 
 button {
     -webkit-app-region: no-drag;
-	border-radius: 20px;
+	border-radius: 50px;
 	border: 1px solid #FF4B2B;
 	background-color: #FF4B2B;
 	color: #FFFFFF;
@@ -89,6 +91,7 @@ form {
 }
 
 input {
+	
     -webkit-app-region: no-drag;
 	background-color: #eee;
 	border: none;
@@ -101,6 +104,7 @@ input {
    
     box-shadow: 0px 0px 20px 0px crimson;
 	background-color: #fff;
+	// background-color: transparent;
 	border-radius: 50px;
   	position: relative;
 	overflow: hidden;
