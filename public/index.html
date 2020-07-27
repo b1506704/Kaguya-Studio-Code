@@ -6,14 +6,13 @@
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
+  <meta name="description" content="Kaguya Studio Code" />
   <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
 
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
     integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <script src="./lib/login-animation.js"></script>
   <title>Kaguya Studio Code</title>
 </head>
 
@@ -22,7 +21,39 @@
   <script src="./lib/login-animation.js"></script>
   <script src="./lib/login-input-validation.js"></script>
   <script src="./lib/L2Dwidget.min.js"></script>
-  
+  <script>    
+    L2Dwidget
+      .on('*', (name) => {
+        console.log('%c EVENT ' + '%c -> ' + name, 'background: #222; color: yellow', 'background: #fff; color: #000')
+      })
+      .init({
+        model: {
+          jsonPath: 'live2d_models/shizuku/shizuku.model.json'
+        },
+        react: {
+          opacityDefault: 1,
+          opacityOnHover: 0.2
+        },
+        dialog: {
+
+          enable: true,
+          script: {
+            'every idle 5s': 'Hi ' + this.mail,
+            'hover .star': 'Twinkle twinkle star (*/ω＼*)',
+            'tap body': 'Nani!??',
+            'tap face': 'Stop petting me!'
+
+          }
+        }
+      });
+  </script>
+  <script>
+    // must include this line for the usage of
+    // ipcRenderer in React component
+    window.require = require;
+    // show user info in live2d dialog --< TODO
+    
+  </script>
   <div id="root"></div>
 
 </body>
