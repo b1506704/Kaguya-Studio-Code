@@ -12,7 +12,7 @@ npm install
 npm start
 ```
 ## Feature
-  - Standard feature of a code editor + click and drag HTML elements ｡ﾟ･ (>﹏<) ･ﾟ｡
+  - Standard feature of a code editor + click and drag HTML elements + blueprint ｡ﾟ･ (>﹏<) ･ﾟ｡
   - Intellisense. ლ(ಠ_ಠ ლ) 
   - Cute and creative UI. (つ✧ω✧)つ
   - Live2D mascot assistant and God of Hidden Coding Technique, 輝夜－様 (Kaguya-sama).	(❤ω❤)
